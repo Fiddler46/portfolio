@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: 'Atkinson Hyperlegible';
-  src: url(./assets//fonts/Atkinson-Hyperlegible-Regular-102.otf);
+  src: url('./assets/fonts/Atkinson-Hyperlegible-Regular-102.otf') format('otf');
 }
 
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url(./assets/fonts/helvetica-neu.ttf);
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 }
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url(./assets/fonts/CoolveticaRg-Regular.woff2);
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
 input,
