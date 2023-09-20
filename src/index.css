@@ -5,8 +5,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Atkinson Hyperlegible', 'Helvetica Neue', sans-serif;
-  color: #ffff;
+  font: 300 11px/1.4 'Atkinson Hyperlegible', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
   background: black;
   overflow: hidden;
   display: block;
