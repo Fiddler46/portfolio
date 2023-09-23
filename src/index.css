@@ -5,9 +5,9 @@ html {
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Atkinson Hyperlegible', 'Helvetica Neue', sans-serif;
-  color: #ffffff;
-  background: black;
+  font: 300 11px/1.4 'Atkinson Hyperlegible', 'Helvetica Neue', sans-serif ;
+  color: azure;
+  background: slategray;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
