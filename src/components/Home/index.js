@@ -8,7 +8,6 @@ import Loader from 'react-loaders'
 const Home = () => {
   return (
     <>
-    <div className="App">
       <Sidebar />
       <div className="container home-page">
         <div className="text-zone">
@@ -35,7 +34,6 @@ const Home = () => {
           </svg>
         </div>
       </div>
-    </div>
     <Loader type="line-scale-pulse-out" />
     </>
   )

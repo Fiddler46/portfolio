@@ -1,0 +1,110 @@
+.text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+
+    h1 {
+        font-size: 53px;
+        font-family: monospace;
+        color: azure;
+        font-weight: 550;
+        letter-spacing: 3px;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+        animation: fadeIn 1s 0.7s backwards;
+    }
+
+    p {
+        font-size: 18px;
+        color:black;
+        margin-left: 10px;
+        min-width: fit-content;
+        font-weight: 300;
+        line-height: 30px;
+        animation: fadeIn 1s 1.2s backwards;
+    }
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+
+    ul {
+        margin-left: 10px;
+        padding: 0;
+
+        li {
+
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 1%;
+            margin-right: 1%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        border: 0;
+        background: #8C99A6;
+        height: 50px;
+        font-size: 16px;
+        color: black;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+
+        width: max-content;
+        max-width: 100%;
+        border: 0;
+        background: #8C99A6;
+        color: black;
+        height: 50px;
+        font-size: 16px;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+
+    .flat-button {
+        margin-left: 70%;
+        align-items: center;
+        color: black;
+        background: 0 0;
+        font-size: large;
+        font-weight: 500;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+}
