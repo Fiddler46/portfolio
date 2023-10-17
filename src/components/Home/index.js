@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Sidebar />
-      <div className="container home-page">
+      <div className="home-page">
         <div className="text-zone">
           <h1>
             Hi, <br />
@@ -23,18 +23,10 @@ const Home = () => {
           </Link>
         </div>
         <div class="wave-container">
-          <svg width="100" height="100" viewBox='0 0 900 600'>
-            <image
-              x="0"
-              y="0"
-              width="100"
-              height="100"
-              src={layeredwaves} alt="waves in home page"
-            />
-          </svg>
+          <img className="wave" src={layeredwaves} alt="waves in home page" />
         </div>
       </div>
-    <Loader type="line-scale-pulse-out" />
+      <Loader type="line-scale-pulse-out" />
     </>
   )
 }

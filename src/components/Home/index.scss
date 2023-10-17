@@ -69,19 +69,9 @@
             color: azure;
         }
     }
+}
 
-    .wave-container {
-        aspect-ratio: 900/600;
-        position: absolute;
-        width: 100%;
-        // bottom: 0;
-        // left: 0;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-
-        svg {
-            width: 100%;
-        }
-    }
+.wave-container {
+    position: absolute;
+    bottom: 0;
 }
