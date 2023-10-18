@@ -73,5 +73,10 @@
 
 .wave-container {
     position: absolute;
-    bottom: 0;
+    bottom: 16%;
+    display: flex;
+}
+
+.wave {
+    transform: scale(3)
 }
