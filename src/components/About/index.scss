@@ -1,3 +1,4 @@
+
 .about-page {
     .text-zone {
         position: absolute;
@@ -31,4 +32,14 @@
             animation: fadeIn 1s 1.2s backwards;
         }
     }   
+}
+.wave-container2 {
+    position: absolute;
+    top: 16%;
+    display: flex;
+}
+
+.waveUpsidedown {
+    // transform: scale(3)
+    transform: scale(-3.4)
 }

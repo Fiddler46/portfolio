@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import Sidebar from '../Sidebar'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import AGlogo from '../../assets/images/AGlogo.svg';
 
 const Contact = () => {
     const refForm = useRef();
@@ -24,7 +25,9 @@ const Contact = () => {
         <>
             <Sidebar />
             <div className='container contact-page' >
-
+                {/* <div class='logo-container'>
+                    <img className='logo' src={AGlogo} alt='main logo in contact' />
+                </div> */}
                 <div className='text-zone'>
                     <h1>
                         Contact Me

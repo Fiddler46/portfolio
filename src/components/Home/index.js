@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import wavealice from '../../assets/images/wavealice.svg'
+import waveNameIcon from '../../assets/images/waveNameIcon.svg'
 import layeredwaves from '../../assets/images/layeredwaves.svg'
 import Sidebar from '../Sidebar'
 import './index.scss'
@@ -14,10 +14,10 @@ const Home = () => {
           <h1>
             Hi, <br />
             I'm Adhyaksh
-            <img src={wavealice} alt="wave" className="wave-svg" />
+            <img src={waveNameIcon} alt="wave icon near name" className="waveIcon" />
           </h1>
           <br />
-          <h2>Full-Stack Developer | Backend and Frontend Architect</h2>
+          <h2>Full-Stack Developer | Backend and Frontend Designer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT
           </Link>
