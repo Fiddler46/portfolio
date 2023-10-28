@@ -23,13 +23,17 @@
         }
 
         p {
-            font-size: 16px;
+            font-size: 17.5px;
             font-weight: 450;
             color:black;
             margin-left: 10px;
             min-width: fit-content;
             line-height: 30px;
             animation: fadeIn 1s 1.2s backwards;
+
+            .bolded { 
+                font-weight: bold;
+             }
         }
     }   
 }

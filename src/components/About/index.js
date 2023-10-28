@@ -21,17 +21,19 @@ const About = () => {
             I'm Adhyaksh Guhan, a coder with a heart full of backend passion.
             I'm on a journey to make the digital world run smoother, one line at
             a time. I've dipped my toes in everything from Discord bots to
-            ethical hacking. Whether it's Node.js, Go, or Ruby, I'm all about
-            solving puzzles and making cool things happen. But I also like
-            making a richer experience utilising the full stack with a focus on
-            accessibility and modern design. 
+            ethical hacking. Whether it's <span class="bolded">Node.js</span>,{' '}
+            <span class="bolded">Go</span>, <span class="bolded">Ruby</span>,
+            I'm all about solving puzzles and making cool things happen. But I
+            also like making a richer experience utilising the full stack with a
+            focus on accessibility and modern design.
             <br />
-            Outside of work, you can find me
-            worldbuilding with my friends in D&D and other tabletop RPGs, and
-            messing about part-time with VA roles in small projects. I also
-            believe Rust and Wasm might be the future of the web and care about
-            community learning so I dedicate my open-source time/learning to
-            those kinds of projects.
+            Outside of work, you can find me worldbuilding with my friends in
+            D&D and other tabletop RPGs, and messing about part-time with VA
+            roles in small projects. I also believe{' '}
+            <span class="bolded">Rust</span> and{' '}
+            <span class="bolded">Web Assembly</span> might be the future of the
+            web and care about community learning so I dedicate my open-source
+            time/learning to those kinds of projects.
           </p>
         </div>
       </div>
