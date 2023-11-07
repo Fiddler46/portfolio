@@ -17,7 +17,7 @@ const Home = () => {
             <img src={waveNameIcon} alt="wave icon near name" className="waveIcon" />
           </h1>
           <br />
-          <h2>Full-Stack Developer | Backend and Frontend Designer</h2>
+          <h2>Software Engineer | Backend Designer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT
           </Link>
